@@ -5,15 +5,15 @@ import mysql.connector
 
 # Set up Spotify API credentials
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id='7ae955693f224b679fc0abaad6996b13',  # Replace with your Client ID
-    client_secret='a4b9348c27754ccb92abe396752c15c4'  # Replace with your Client Secret
+    client_id='ca29fc2bc80a43d38275618cd929dc5f',  # Replace with your Client ID
+    client_secret='f2e60ad0fc214bb2918516656863c54e'  # Replace with your Client Secret
 ))
 
 # MySQL Database Connection
 db_config = {
     'host': 'localhost',           # Change to your MySQL host
     'user': 'root',       # Replace with your MySQL username
-    'password': 'root',   # Replace with your MySQL password
+    'password': '2303',   # Replace with your MySQL password
     'database': 'spotify_db'       # Replace with your database name
 }
 
